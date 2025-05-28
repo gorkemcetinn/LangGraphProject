@@ -49,4 +49,17 @@ LangGraphProject/
 │       ├── grade_documents.py       # Belge ile soruyu eşleştirme
 │       ├── generate.py              # Cevap üretimi (generation_chain)
 │       └── web_search.py           # Tavily API ile dış web araması
+```
 
+✨ Açıklama
+graph/ dizini, LangGraph mimarisi ve akış yapısını içerir.
+
+chains/, LLM ile çalışan değerlendirme zincirlerini içerir.
+
+nodes/, sistemdeki her adımı tanımlayan modüler fonksiyonları barındırır.
+
+main.py sistemi başlatmak için kullanılır; genelde test/örnek amaçlıdır.
+
+ingestion.py, belirli URL’lerden veri çekip vektör deposu oluşturur.
+
+graph.png, akış diyagramını temsil eder. Sistemin mantıksal akışını görsel olarak sunar.
