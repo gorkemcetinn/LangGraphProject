@@ -52,6 +52,7 @@ LangGraphProject/
 ```
 
 ✨ Açıklama
+
 graph/ dizini, LangGraph mimarisi ve akış yapısını içerir.
 
 chains/, LLM ile çalışan değerlendirme zincirlerini içerir.
@@ -63,3 +64,26 @@ main.py sistemi başlatmak için kullanılır; genelde test/örnek amaçlıdır.
 ingestion.py, belirli URL’lerden veri çekip vektör deposu oluşturur.
 
 graph.png, akış diyagramını temsil eder. Sistemin mantıksal akışını görsel olarak sunar.
+
+
+
+🧪 Kurulum ve Çalıştırma
+
+# Depoyu klonla
+git clone https://github.com/gorkemcetinn/LangGraphProject.git
+cd LangGraphProject
+
+# Sanal ortam oluştur ve bağımlılıkları yükle
+python -m venv venv
+source venv/bin/activate  # Windows için: venv\Scripts\activate
+pip install -r requirements.txt
+
+# .env dosyasını oluştur
+cp .env.example .env
+# (env dosyasına kendi API key'lerinizi eklemeyi unutmayın)
+
+# Web belgelerini vektörleştir (ilk çalıştırma için)
+python ingestion.py
+
+# Uygulamayı çalıştır
+python main.py
