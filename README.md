@@ -69,6 +69,9 @@ graph.png, akış diyagramını temsil eder. Sistemin mantıksal akışını gö
 
 🧪 Kurulum ve Çalıştırma
 
+
+
+```code
 # Depoyu klonla
 git clone https://github.com/gorkemcetinn/LangGraphProject.git
 cd LangGraphProject
@@ -87,3 +90,4 @@ python ingestion.py
 
 # Uygulamayı çalıştır
 python main.py
+```
