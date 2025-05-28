@@ -51,7 +51,7 @@ LangGraphProject/
 │       └── web_search.py           # Tavily API ile dış web araması
 ```
 
-✨ Açıklama
+## ✨ Açıklama
 
 graph/ dizini, LangGraph mimarisi ve akış yapısını içerir.
 
@@ -67,9 +67,7 @@ graph.png, akış diyagramını temsil eder. Sistemin mantıksal akışını gö
 
 
 
-🧪 Kurulum ve Çalıştırma
-
-
+## 🧪 Kurulum ve Çalıştırma
 
 ```code
 # Depoyu klonla
@@ -91,3 +89,15 @@ python ingestion.py
 # Uygulamayı çalıştır
 python main.py
 ```
+
+
+## 🧠 Kullanılan Teknolojiler
+LangChain / LangGraph – LLM tabanlı zincir ve akış sistemleri
+
+OpenAI GPT API – Soru yanıtlama, yönlendirme ve değerlendirme
+
+Tavily API – Web arama desteği
+
+ChromaDB – Vektör veri deposu
+
+Python dotenv – Ortam değişkeni yönetimi
